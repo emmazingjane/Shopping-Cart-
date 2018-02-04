@@ -1,0 +1,54 @@
+*/ {
+	font-size: 16px;
+	font-family: font-family: 'Oswald', sans-serif;
+}
+
+.columns {
+	display: flex;
+}
+
+.column1 {
+	background-color: #bfb3db;
+	text-align: center;
+	margin: 0;
+	width: 50%;
+	padding: 0;
+	border-right: 1px solid #000;
+}
+
+.column2 {
+	width: 50%;
+	padding: 0;
+	text-align: center;
+
+}
+
+#cereal {
+
+}
+
+#juices {
+
+}
+
+#candy {
+
+}
+
+#buttons {
+	outline: none;
+	background-color: #FFF;
+
+}
+
+h1 {
+
+
+}
+
+footer {
+	width: 100%;
+	background-color: #d3c8f0;
+	justify-content: flex-end;
+
+}
