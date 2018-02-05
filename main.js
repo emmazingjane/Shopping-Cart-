@@ -79,6 +79,9 @@ var juiceItems = [
 
 ];
 // make the buttons click to page of type
+cerealItems.addEventListener("click", addShoppingCart);
+
+
 $('cereal').onclick(function() {
 	addColumn1('cereal');
 });
@@ -91,11 +94,6 @@ $('juices').onclick(function() {
 	addColumn1('juices');
 });
 // make the pictures click column1
-
-$('#column1').on('click', '.column1', function() {
-	var itemName = $(this).find('p').text();
-	addItemToShoppingCart(itemName);
-});
 
 
 // add the food to the shopping cart column 2
